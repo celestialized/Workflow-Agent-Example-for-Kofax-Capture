@@ -2,11 +2,12 @@
 This workflow collects detail information of a batch and sends them to a web service where that information is logged into a database
 
 Information from workflow is stored in 3 tables (Refer [Database script](Scripts/DB Scripts.sql))
-	- BATCH_LOG	Store batch information
-	- DOCUMENT_LOG	Store document information
-	- FIELD_LOG	Store field information
 
-The workflow is divided into 3 parts as below:
+    - BATCH_LOG     Store batch information
+    - DOCUMENT_LOG  Store document information
+    - FIELD_LOG     Store field information
+
+The workflow is divided into 3 parts as below
 1. **Project LoggingWFAgent**  (Class library VB.NET)
 
    Represents the workflow and must be registered to KC, it has an entry point of the workflow where we put main logging logic
@@ -23,4 +24,4 @@ The workflow is divided into 3 parts as below:
 
 There is another Unit test project **LoggingWFAgentServiceTest** which contains testing content for LoggingWFAgentService
 
-In order to add the workflow to KC, there is an [install script](Scripts/LoggingWFAgentSetup.aex)
+In order to add the workflow to KC, we use an [install script](Scripts/LoggingWFAgentSetup.aex)
