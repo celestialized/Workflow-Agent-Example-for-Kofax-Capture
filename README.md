@@ -1,7 +1,7 @@
 ### A simple example Workflow Agent for Kofax Capture
 This workflow collects detail information of a batch and sends them to a web service where that information is logged into a database
 
-Information from workflow is stored in 3 tables (Refer [Database script](Scripts/DB Scripts.sql))
+Information from workflow is stored in 3 tables (Refer [Database script](Scripts/DB%20Scripts.sql))
 
     - BATCH_LOG     Store batch information
     - DOCUMENT_LOG  Store document information
