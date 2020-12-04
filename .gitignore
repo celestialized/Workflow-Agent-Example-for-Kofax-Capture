@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/LoggingWFAgent/packages
+/LoggingWFAgent/.vs/LoggingWFAgent
+/LoggingWFAgent/LoggingWFAgent/bin
+/LoggingWFAgent/LoggingWFAgent/obj
+/LoggingWFAgent/LoggingWFAgentConfiguration/bin
+/LoggingWFAgent/LoggingWFAgentConfiguration/obj
+/LoggingWFAgent/LoggingWFAgentService/bin
+/LoggingWFAgent/LoggingWFAgentService/obj
+/LoggingWFAgent/LoggingWFAgentServiceTest/bin
+/LoggingWFAgent/LoggingWFAgentServiceTest/obj

@@ -1,0 +1,18 @@
+[Workflow Agents]
+LoggingWFAgentSetup
+
+[LoggingWFAgentSetup]
+WorkflowAgentID=Example.LoggingWFAgent
+WorkflowAgentProgID=LoggingWFAgent.LoggingWFAgent.ProgId
+WorkflowAgentFile=LoggingWFAgent.dll
+Description=This workflow agent logs all data from queues to a service
+Version=1.0
+SupportsNonImageFiles=True
+SetupProgram=Logging WF Agent Configuration
+
+[Logging WF Agent Configuration]
+OCXFile=LoggingWFAgentConfiguration.dll
+ProgID=LoggingWFAgentConfiguration.LoggingWFAgentCtrl.ProgId
+Visible=0
+MinSizeX=300
+MinSizeY=150
